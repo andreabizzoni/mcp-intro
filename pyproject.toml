@@ -4,4 +4,10 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "httpx>=0.28.1",
+    "ipykernel>=7.1.0",
+    "mcp[cli]>=1.23.3",
+    "openai>=2.9.0",
+    "python-dotenv>=1.2.1",
+]
